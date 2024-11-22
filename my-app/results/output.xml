@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.1 on win32)" generated="2024-08-23T11:41:28.957062" rpa="false" schemaversion="5">
+<suite id="s1" name="My-App" source="C:\Users\YSolis\OneDrive - CardFlex Inc\Desktop\practices\react\my-app">
+<suite id="s1-s1" name="Test" source="C:\Users\YSolis\OneDrive - CardFlex Inc\Desktop\practices\react\my-app\test.robot">
+<test id="s1-s1-t1" name="Open Browser and click component" line="5">
+<kw name="Comment" owner="BuiltIn">
+<arg>\</arg>
+<arg>Open first browser with application</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="PASS" start="2024-08-23T11:41:29.198188" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2024-08-23T11:41:29.199188" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<arg>http://localhost:3000/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-23T11:41:29.198188" elapsed="3.867774"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
+<msg time="2024-08-23T11:41:33.066237" level="INFO">Clicking element '//*[@id="root"]/div/header/a'.</msg>
+<arg>//*[@id="root"]/div/header/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-23T11:41:33.066237" elapsed="0.048181"/>
+</kw>
+<status status="PASS" start="2024-08-23T11:41:29.197183" elapsed="3.917235"/>
+</test>
+<status status="PASS" start="2024-08-23T11:41:29.051434" elapsed="4.064289"/>
+</suite>
+<status status="PASS" start="2024-08-23T11:41:29.038385" elapsed="4.078338"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="My-App">My-App</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test">My-App.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
